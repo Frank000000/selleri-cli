@@ -1,30 +1,30 @@
 #! /usr/bin/env node
 
-console.log('selleri-cli 文件入口...')
-
+console.log('selleri-cli Entry file...')
 
 const program = require('commander');
 const chalk = require('chalk');
-// 获取当前版本号
+const createModel = require('../lib/create.js')
 const version = require('../package.json').version;
 
-// 给提示增加
-program.on('--help', () => {
-  console.log();
-  console.log(
-    `Run ${chalk.cyan(
-      'selleri-cli <command> --help'
-    )} for detailed usage of given command.
-    `)
-});
-
 program
-  // 配置脚手架名称
+  .on('--help', () => {
+    console.log();
+    console.log(
+      `Run ${chalk.cyan(
+        'selleri-cli <command> --help'
+      )} for detailed usage of given command.
+      `)
+  })
   .name('selleri-cli')
-  // 配置命令格式
   .usage(`<command> [option]`)
-  // 配置版本号
-  .version(version);
+  .version(version)
+  .command('create <project-name>')
+  .description('create a new project')
+  .option('-f, --force', 'overwrite target directory if it exists')
+  .action((projectName, options) => {
+    createModel(projectName, options);
+  })
 program.parse(process.argv);
 
 
