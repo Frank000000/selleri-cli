@@ -25,7 +25,4 @@ selleri-cli creat test
 
 # Add calling template API,then download temlate
 selleri-cli creat test
-
-
-
 ```
