@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Frank000000/selleri-cli.git"
   },
-  "keywords": [],
+  "keywords": ["vue2","vue3","vite","node.js","ts","js"],
   "author": "",
   "license": "ISC",
   "bugs": {
