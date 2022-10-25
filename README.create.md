@@ -21,8 +21,10 @@ selleri-cli -h
 selleri-cli create test --force
 
 # Handling directory duplication
-selleri-cli creat test
+selleri-cli create test
 
 # Add calling template API,then download temlate
-selleri-cli creat test
+selleri-cli create test
 ```
+
+🆘 Never use `ncu - u` to update dependencies
