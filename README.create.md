@@ -27,4 +27,6 @@ selleri-cli create test
 selleri-cli create test
 ```
 
-🆘 Never use `ncu - u` to update dependencies
+🆘
+- Never use `ncu - u` to update dependencies
+- Never change the name `choiceTemplateName`
