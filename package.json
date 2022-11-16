@@ -1,6 +1,6 @@
 {
   "name": "selleri-cli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Frank000000/selleri-cli.git"
+    "url": "git+https://github.com/YangZebin-Rafi/selleri-cli.git"
   },
   "keywords": [
     "vue2",
@@ -21,9 +21,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Frank000000/selleri-cli/issues"
+    "url": "https://github.com/YangZebin-Rafi/selleri-cli/issues"
   },
-  "homepage": "https://github.com/Frank000000/selleri-cli#readme",
+  "homepage": "https://github.com/YangZebin-Rafi/selleri-cli#readme",
   "bin": {
     "selleri-cli": "bin/main"
   },
